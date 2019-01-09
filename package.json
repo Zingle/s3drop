@@ -1,0 +1,20 @@
+{
+  "name": "@zingle/s3drop",
+  "version": "0.0.1",
+  "description": "drop files into S3 bucket",
+  "main": "s3drop.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zingle/s3drop.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/s3drop/issues"
+  },
+  "homepage": "https://github.com/Zingle/s3drop#readme",
+  "dependencies": {
+    "@zingle/sync": "1.0.0",
+    "aws-sdk": "^2.384.0"
+  }
+}
